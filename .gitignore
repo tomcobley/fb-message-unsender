@@ -1,3 +1,9 @@
+# Sensitive information
+user.json
+
+# IDEA files
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
