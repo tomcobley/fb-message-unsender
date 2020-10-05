@@ -18,10 +18,18 @@ If you see error (on Mac) `“chromedriver” cannot be opened because the devel
 xattr -d com.apple.quarantine /usr/local/bin/chromedriver
 ```
 
-Create `user.json` file with contents as follows:
+Create `user.json` file with contents as follows (replacing <EMAIL> and <PASSWORD> with your Facebook credentials):
 ```json
 {
-  "email": "EMAIL",
-  "password": "PASSWORD"
+  "email": "<EMAIL>",
+  "password": "<PASSWORD>"
 }
 ```
+
+## Usage
+
+Set the URL in `main.py` to the intended recipient and run `main.py`.
+
+## Disclaimer
+
+Use at your own discretion / risk. Messages will be deleted without confirmation. Be careful not to unintentionally delete messages.
