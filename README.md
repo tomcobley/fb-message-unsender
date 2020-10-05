@@ -1,5 +1,10 @@
 # Facebook Message Unsender
 
+Facebook don't want to let go of our data, and make it very laborious to delete old posts and messages.
+
+So, this project is a work in progress to enable rapid 'unsending' of Facebook messages, deleting them from your devices, the recipients devices and (hopefully) the Facebook servers.
+
+## Setup
 Install selenium:
 ```
 pip install selenium
